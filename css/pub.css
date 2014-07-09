@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+    background: none repeat scroll 0 0 #fff;
+    color: #555;
+    font: 13px Verdana,Arial,Helvetica,sans-serif;
+    height: 100%;
+}
+a{text-decoration:none;}
+/* top */
+#wh{background-color:#0071B3;height: 92px;width:100%;}
+#wh .top{height: 92px;min-height:92px;margin: 0 auto;width: 1002px;}
+#wh .top #logo{width:246px;height:92px;float:left;}
+#wh .top #txtSearch{width:410px;height:28px;line-height:28px;font-size:14px;float:right;margin-top:20px;}
+#wh .top #btnSearch{width:72px;height:30px;border:none;background:url(../images/btnsearch.png) left top no-repeat;float:right;margin-top:20px;position:relative;left:414px;top:2px;}
+#wh .top ul{float:left;margin-left:345px;margin-top:10px;}
+#wh .top li{display:inline;margin-right:5px;}
+#wh .top a{color:#fff;font-size:14px;font-weight:bold;}
+/* The middle part */
+#wm{width:1002px;margin:0 auto;height:250px;min-height:250px;}
+/* The tail */
+#wf{background-color:#0071B3;height:40px;width:100%;clear:left;}
+#wf p{text-align:center;color:#fff;text-indent:400px;line-height:40px;}
+#wf p a{color:#9FF;}
