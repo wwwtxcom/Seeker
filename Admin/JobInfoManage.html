@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Job Info Manager</title>
+	<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="../css/pub.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery-1.8.0.min.js" type="text/javascript"></script>   
+    <script type="text/javascript">
+		$(function(){
+		})
+	</script> 
+    <style type="text/css"> 
+		#wm{height:auto;}
+		#wm h4{font-size:24px;color:#000;font-weight:bold;line-height:60px;margin-left:100px;}
+		#wm span{margin:auto 10px;}
+		#wm input{margin:auto 20px;}
+		.tinyline{border-collapse:collapse;width:98%;margin:10px auto;}
+		.tinyline td{border-bottom:1px solid #aaa;}
+		#joblist{width:80%;margin:20px auto;font-size:18px;line-height:30px;}
+    </style>
+</head>
+
+<body>
+	<div id="wh">
+    	<div class="top">   
+        	<img src="../images/T01.png" alt="logo" id="logo" />
+            <input type="text" id="txtSearch" id="txtSearch" />
+            <input type="button" id="btnSearch" id="btnSearch" />
+            <ul>
+            	<li><a href="ChoiceJob.html" target="_self">管理分类</a></li>
+                <li><a href="IndustryInfoManage.html" target="_self">行业管理</a></li>
+                <li><a href="JobInfoManage.html" target="_self">职位管理</a></li>
+                <li><a href="JobDetails.html" target="_self">详细职位</a></li>
+                <li><a href="../ContactUs.html" target="_self">联系我们</a></li>
+				<li><a href="#" target="_self">English</a></li>
+            </ul>	
+        </div>
+    </div>
+    <div id="wm">
+    	<h4>工作职位信息管理</h4>
+        <span>职位名称</span><input type="text" />&nbsp;&nbsp;<span>职位类型</span><input type="text" /><input type="button" value="查找" id="btnSearch" /><input type="button" value="新增职位" id="btnAdd" />
+         <table class="tinyline"><tr><td></td></tr></table>
+         <table id="joblist">
+         	<tr class="th"><td>职位名称</td><td>所属行业</td><td></td></tr>
+            <tr><td>高级工程师</td><td>信息产业</td><td><input type="button" value="删除" /></td></tr>
+            <tr><td>车间主任</td><td>生产业</td><td><input type="button" value="删除" /></td></tr>
+         </table>
+    </div>
+    <div id="wf">
+    	<p>Copyright &copy; 2014 Seekerhr Corporation. All Rights Reserved. <a href="" target="_blank"> 法律条款和条件</a>&nbsp;|&nbsp;<a href="" target="_blank">隐私条款</a></p>
+    </div>
+</body>
+</html>

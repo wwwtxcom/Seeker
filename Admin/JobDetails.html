@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Job Detail</title>
+	<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="../css/pub.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery-1.8.0.min.js" type="text/javascript"></script>   
+    <script type="text/javascript">
+		$(function(){
+			$("#wm table td:nth-child(3n-2)").css({"background-color":"#f1f1f1","border-bottom":"1px solid #ccc"});
+			$("#wm table td:eq(0)").css({"background-color":"#fff"});
+			$("#wm table td:eq(3)").css({"background-color":"#fff"});
+			$("#wm :button").css({"margin":"20px"});
+		})
+	</script> 
+    <style type="text/css"> 
+		#wm{height:auto;}
+		#wm h4{font-size:24px;color:#000;font-weight:bold;line-height:60px;margin-left:100px;}	
+		#wm table{width:100%;}
+		#wm table .th{text-align:center;}
+		#wm table td{height:30px;line-height:30px;}	
+		#wm span{margin:10px 40px;line-height:30px;}
+		#wm textarea{width:98%;height:200px;}
+    </style>
+</head>
+
+<body>
+	<div id="wh">
+    	<div class="top">   
+        	<img src="../images/T01.png" alt="logo" id="logo" />
+            <input type="text" id="txtSearch" id="txtSearch" />
+            <input type="button" id="btnSearch" id="btnSearch" />
+            <ul>
+            	<li><a href="ChoiceJob.html" target="_self">管理分类</a></li>
+                <li><a href="IndustryInfoManage.html" target="_self">行业管理</a></li>
+                <li><a href="JobInfoManage.html" target="_self">职位管理</a></li>
+                <li><a href="../JoinUs.html" target="_self">加入我们</a></li>
+                <li><a href="../ContactUs.html" target="_self">联系我们</a></li>
+				<li><a href="#" target="_self">English</a></li>
+            </ul>	
+        </div>
+    </div>
+    <div id="wm">
+    	<h4>Job Details/工作职位信息管理</h4>
+        <table>
+        	<tr class="th"><td></td><td>Englist</td><td>中文</td><td></td><td>English</td><td>中文</tr>
+            <tr><td>Position/职位名称</td><td><input type="text" /></td><td><input type="text" /></td><td>Department/部门</td><td><input type="text" /></td><td><input type="text" /></td></tr>
+            <tr><td>Subordinates/下属</td><td><input type="text" /></td><td><input type="text" /></td><td>Department/部门</td><td><input type="text" /></td><td><input type="text" /></td></tr>
+            <tr><td>Department/部门</td><td><input type="text" /></td><td><input type="text" /></td><td>Department/部门</td><td><input type="text" /></td><td><input type="text" /></td></tr>
+            <tr><td>Department/部门</td><td><input type="text" /></td><td><input type="text" /></td><td>Department/部门</td><td><input type="text" /></td><td><input type="text" /></td></tr>
+        </table>  
+        <span>Job Details</span><br />
+        <textarea>
+        	Job title: Design Engineer System Engineer
+            Job description:
+            Job description:
+            Responsible for the system design, 1 parts of the review, published.
+            2 is responsible for the formulation and promulgation of the system components of technical standards.
+            3 responsible for the preparation of the system components of the design calculations, P map and DFMEA;
+            4 responsible for product development project components development the technical aspects of system coordination and technical management;
+            5 be responsible for product development project of the system engineering issue of materials;
+            6 responsible for the preparation of the system components of the test plan and management track;
+            7 responsible for the test problem analysis and put forward the corresponding parts improvement scheme.
+            Job requirements:
+            1 Bachelor degree or above, majored in automobile.
+            2 2 years or above working experience.
+            3 good English, good English is preferred.
+        </textarea>
+        <span>职位描述</span><br />
+		<textarea>
+        	职位职能:  汽车设计工程师  系统工程师  
+            职位描述:
+            
+            职位描述：
+            1.负责本系统零部件的设计设计，评审，发布。
+            2.负责制定和发布本系统零部件的技术标准。
+            3.负责编制本系统零部件的设计计算书，P图与DFMEA；
+            4.负责进行产品开发项目本系统零部件开发方面的技术协调与技术管理；
+            5.负责编制产品开发项目本系统工程签发材料；
+            6.负责编制本系统零部件的试验验证计划并管理跟踪；
+            7.负责进行试验问题分析并提出相应的零部件改进方案。
+            
+            职位要求：
+            1.本科以上学历，汽车类相关专业。
+            2.有2年或以上工作经验。
+            3.英语良好，英语优秀者优先。 
+        </textarea>
+        <input type="button" value="提交" /><input type="button" value="返回" /> 
+    </div>
+    <div id="wf">
+    	<p>Copyright &copy; 2014 Seekerhr Corporation. All Rights Reserved. <a href="" target="_blank"> 法律条款和条件</a>&nbsp;|&nbsp;<a href="" target="_blank">隐私条款</a></p>
+    </div>
+</body>
+</html>
